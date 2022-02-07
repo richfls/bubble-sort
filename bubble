@@ -1,0 +1,16 @@
+
+import random
+
+bubblelist = []
+
+for i in range(0,20):
+    bubblelist.append(random.randrange(200,500))
+
+print(bubblelist)
+print("not sorted")
+for j in range(len(bubblelist)):
+    if list[j] > list[j+1]:
+        list[j],list[j+1] = list[j+1],list[j]
+
+print(bubblelist)
+print("sorted")
